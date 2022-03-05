@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    transition: all 2s ease;
     .wrapper{
         padding: 10px 30px;
         display: flex;
@@ -70,6 +71,7 @@
                     &:first-child{
                         background-color: white;
                         transform: rotate(45deg);
+                        transform: all 2s ease;
                     }
                     &:nth-child(2){
                         opacity: 0;
@@ -77,6 +79,7 @@
                     &:last-child{
                         background-color: white;
                         transform: rotate(-45deg);
+                        transform: all 2s ease;
                         
                     }
                 }
