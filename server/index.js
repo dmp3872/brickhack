@@ -1,5 +1,6 @@
 // dependicies:
 // npm add express cors twilio
+import Reminders from '../src/components/reminders/Reminders';
 
 const express = require('express');
 const cors = require('cors');
