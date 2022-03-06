@@ -12,15 +12,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
               </a>
             <div className="itemContainer">
                 <Favorite className="icon"/>
-                <span>Health</span>
+                <span></span>
               </div>
               <div className="itemContainer">
                 <DirectionsRun className="icon"/>
-                <span>Is</span>
+                <span></span>
                 </div>
                 <div className="itemContainer">
                   <Spa className="icon"/>
-                  <span>Wealth</span>
+                  <span></span>
                   </div>
               </div>
             <div className="right">

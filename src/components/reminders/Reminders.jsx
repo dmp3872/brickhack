@@ -27,7 +27,7 @@ export default function Reminders() {
   }
   return (
     <div className="reminders" id="reminders">
-      <h1>Send Yourself A Reminder</h1>
+      <h1>Send yourself a reminder</h1>
       <form onSubmit={handleSumbit}>
         <input type="text" name="number" placeholder="Phone Number"/>
         <textarea name="reminder" placeholder="Set Reminder..."></textarea>
