@@ -8,7 +8,7 @@ export default function Intro() {
          </div>
          <div className="right">
          <a href="#reminders">
-           <img src="assets/arrow.png" alt="" />
+           <img src="assets/down3.png" alt="" />
            </a>
            </div>
     </div>
