@@ -46,4 +46,20 @@
         color: green;
     }
 }
+a{
+    left: 46%;
+    position: inherit;
+    bottom: 0px;
+    img{
+        width: 100px;
+        animation: arrowBlink 2s infinite;
+        }
+    
+
+    @keyframes arrowBlink {
+        to{
+            opacity: 0;
+        }
+    }
+}
 }

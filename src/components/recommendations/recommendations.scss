@@ -1,5 +1,6 @@
 .recommendations{
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: steelblue;
     h1{
@@ -14,7 +15,24 @@
         li{
             display: flex;
             list-style: floor($number: 0);
-            align-items: space-around;
+            align-items: center;
+        }
+
+    }
+    a{
+        left: 46%;
+        position: inherit;
+        bottom: 0px;
+        img{
+            width: 100px;
+            animation: arrowBlink 2s infinite;
+            }
+        
+    
+        @keyframes arrowBlink {
+            to{
+                opacity: 0;
+            }
         }
     }
 }

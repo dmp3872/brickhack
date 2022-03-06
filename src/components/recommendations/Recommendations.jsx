@@ -2,7 +2,7 @@ import "./recommendations.scss"
 
 export default function Recommendations() {
   return (
-    <div className="recommendations">
+    <div className="recommended" id="recommended">
       <body>
         <h1><b>Recommended Reminders</b></h1>
         <h2>Set a Reminder to:</h2>
@@ -14,6 +14,9 @@ export default function Recommendations() {
               <li>Schedule an appointment<br/></li>
             </ul>
       </body>
+      <a href="#contact">
+           <img src="assets/down3.png" alt="" />
+           </a>
     </div>
   )
 }
