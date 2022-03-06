@@ -5,15 +5,14 @@ export default function Recommendations() {
     <div className="recommendations">
       <body>
         <h1><b>Recommended Reminders</b></h1>
-        <p>Set a Reminder to:
-            <ul>
-              <li>Workout</li>
-              <li>Go to sleep on time</li>
-              <li>Do your homework</li>
-              <li>Drink water</li>
-              <li>Schedule an appointment</li>
+        <h2>Set a Reminder to:</h2>
+        <ul>
+          <li>Workout</li>
+              <li>Go to sleep on time<br/></li>
+              <li>Do your homework<br/></li>
+              <li>Drink water<br/></li>
+              <li>Schedule an appointment<br/></li>
             </ul>
-        </p> 
       </body>
     </div>
   )

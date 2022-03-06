@@ -5,4 +5,16 @@
     h1{
         font-size: 30px;
     }
+    h2{
+        font-size: 20px;
+    }
+    
+    ul{
+        align-items: space-around;
+        li{
+            display: flex;
+            list-style: floor($number: 0);
+            align-items: space-around;
+        }
+    }
 }
