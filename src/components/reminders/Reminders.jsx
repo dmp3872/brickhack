@@ -1,16 +1,15 @@
-import { state } from "express";
 import { useState } from "react";
 import "./reminders.scss"
 
 export default function Reminders() {
-  state = {
+  let state = {
     text: {
       recipient: '',
       textmessage: ''
     }
   }
   function sendText() {
-    const { text } = Reminders.state;
+    const { text } = state;
     //pass text message GET variables via query string
     fetch(`http://127.0.0.1:4000/send-text?recipient=${text.recipient}&textmessage=${text.textmessage}`)
       .catch(err => console.error(err));
@@ -23,7 +22,7 @@ export default function Reminders() {
     const reminder= e.target.reminder.value;
     const time = e.target.time.value;
     const days = e.target.days.value;
-    Reminders.state = {number, reminder};
+    state = {number, reminder};
     sendText();
   }
   return (
