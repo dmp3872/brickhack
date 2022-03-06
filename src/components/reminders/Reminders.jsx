@@ -36,6 +36,9 @@ export default function Reminders() {
         <button type= "submit">Add Reminder</button>
         {message && <span>Reminder Added</span>}
         </form>
+         <a href="#recommended">
+           <img src="assets/down3.png" alt="" />
+           </a>
       </div>
   )
 
