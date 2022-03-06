@@ -1,6 +1,9 @@
 .contact {
     background-color: lightgreen;
     display: flex;
+    align-items: space-around;
+    justify-content: center;
+    padding-left: 24%;
     
     .left {
         flex: 1;

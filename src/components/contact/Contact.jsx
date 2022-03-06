@@ -12,7 +12,7 @@ const handleSubmit = (e) => {
   return (
     <div className="contact" id="contact">
           <div className="left">
-          <h2>Contact.</h2>  
+          <h2>Feedback</h2>  
           <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Email"/>
             <textarea placeholder="Message"></textarea>
