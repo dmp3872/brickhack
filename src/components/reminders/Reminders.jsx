@@ -6,10 +6,10 @@ export default function Reminders() {
   const handleSumbit =(e)=>{
     e.preventDefault();
     setMessage(true)
-    const number=e.target.number.value;
-    const reminder =e.target.reminder.value;
+    const number= e.target.number.value;
+    const reminder= e.target.reminder.value;
     const time = e.target.time.value;
-    const days =e.target.days.value;
+    const days = e.target.days.value;
   }
   return (
     <div className="reminders" id="reminders">

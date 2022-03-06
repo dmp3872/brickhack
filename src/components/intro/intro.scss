@@ -1,3 +1,35 @@
 .intro{
-    background-color: white;
+    background-image: url("assets/health2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .left{
+        flex: .5;
+        img{
+            padding-left: 100px;
+            padding-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40%;
+            width: 26%;
+        }
+    }
+    .right{
+        flex: .5;
+        a{
+            padding-left: 70%;
+            position: absolute;
+            bottom: 10px;
+            img{
+                width: 80px;
+                animation: arrowBlick 2s infinite;
+                }
+            }
+
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 0;
+                }
+        }
+    }   
 }
