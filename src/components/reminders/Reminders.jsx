@@ -18,10 +18,10 @@ export default function Reminders() {
   const handleSumbit =(e)=>{
     e.preventDefault();
     setMessage(true)
-    const number= e.target.number.value;
-    const reminder= e.target.reminder.value;
-    const time = e.target.time.value;
-    const days = e.target.days.value;
+    let number= e.target.number.value;
+    let reminder= e.target.reminder.value;
+    let time = e.target.time.value;
+    let days = e.target.days.value;
     state = {number, reminder};
     sendText();
   }

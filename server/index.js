@@ -32,7 +32,7 @@ app.get('/send-text', (req, res) => {
     // send text
     client.messages.create({
         body: textmessage,
-        to: "+1" + recipient,
+        to: "+" + recipient,
         from: '+16162538935' // my phone number from twilio
     }).then((message) => console.log(message.body));
 })

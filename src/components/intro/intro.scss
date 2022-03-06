@@ -3,16 +3,39 @@
     background-repeat: no-repeat;
     background-size: 100% 110%;
     .left{
-        flex: .5;
-        img{
+        flex: 0.5;
+        position: relative;
+        .wrapper {
+            padding-top: 150px;
+            width: 100%;
+            height: 100%;
             padding-left: 100px;
-            padding-top: 30px;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            align-items: center;
-            height: 40%;
-            width: 26%;
+      
+      
+            h1 {
+              font-size: 50px;
+              margin: 10px 0;
+              color: white;
+      
+            }
+            h2 {
+              font-size: 50px;
+              color: white;
+            }
+            h3 {
+              font-size: 40px;
+              color: white;
+      
+              span {
+                font-size: inherit;
+                color: red;
+              }
+            }
         }
+      
     }
     .right{
         flex: .5;
@@ -34,3 +57,4 @@
         }
     }   
 }
+    
