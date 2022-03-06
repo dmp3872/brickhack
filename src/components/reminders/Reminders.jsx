@@ -20,8 +20,8 @@ export default function Reminders() {
     setMessage(true)
     let number= e.target.number.value;
     let reminder= e.target.reminder.value;
-    let time = e.target.time.value;
-    let days = e.target.days.value;
+    // let time = e.target.time.value;
+    // let days = e.target.days.value;
     state = {number, reminder};
     sendText();
   }
